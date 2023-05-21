@@ -45,6 +45,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "Adres": {
+      "type": "string"
+    },
+    "Link_Socialmedia": {
+      "type": "string"
+    },
+    "korte_beschrijving": {
+      "type": "string"
     }
   }
 }
