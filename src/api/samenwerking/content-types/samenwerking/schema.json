@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "samenwerkingen",
+  "info": {
+    "singularName": "samenwerking",
+    "pluralName": "samenwerkingen",
+    "displayName": "Samenwerking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naam": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

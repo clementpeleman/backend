@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,32 @@
       "type": "richtext"
     },
     "afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "jaar": {
       "type": "date"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "naam"
+    },
+    "samenwerkings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::samenwerking.samenwerking"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
     }
   }
 }
