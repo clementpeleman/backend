@@ -44,23 +44,23 @@
       "relation": "oneToMany",
       "target": "api::samenwerking.samenwerking"
     },
-    "tags": {
+    "status": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
     },
-    "Adres": {
+    "adres": {
       "type": "string",
       "required": true
     },
-    "Link_Socialmedia": {
+    "externe_link": {
       "type": "string"
     },
     "korte_beschrijving": {
       "type": "string",
       "required": true
     },
-    "Thumbnail": {
+    "thumbnail": {
       "type": "media",
       "multiple": false,
       "required": true,
