@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
-    "@strapi/plugin-i18n": "4.10.5",
-    "@strapi/plugin-users-permissions": "4.10.5",
-    "@strapi/strapi": "4.10.5",
+    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/strapi": "4.15.0",
     "better-sqlite3": "8.0.1",
     "dotenv": "^16.0.3",
     "pg": "^8.11.3",
