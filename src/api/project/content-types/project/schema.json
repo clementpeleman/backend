@@ -32,7 +32,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "naam"
+      "targetField": "naam",
+      "required": true
     },
     "samenwerkings": {
       "type": "relation",
@@ -43,7 +44,8 @@
     "status": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::tag.tag"
+      "target": "api::tag.tag",
+      "required": true
     },
     "adres": {
       "type": "string",
