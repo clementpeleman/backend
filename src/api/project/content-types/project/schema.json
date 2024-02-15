@@ -24,12 +24,7 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "jaar": {
       "type": "date",
@@ -42,7 +37,8 @@
     "samenwerkings": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::samenwerking.samenwerking"
+      "target": "api::samenwerking.samenwerking",
+      "required": true
     },
     "status": {
       "type": "relation",
@@ -64,12 +60,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     }
   }
 }
