@@ -18,7 +18,7 @@ export default ({ env }) => ({
   },
 
   "image-optimizer": {
-    enabled: false,
+    enabled: true,
     config: {
       include: ["jpeg", "jpg", "png"],
       exclude: ["gif"],
